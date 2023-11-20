@@ -5,36 +5,41 @@ body {
     color: #cdd6f4
 }
 
-ul, p, ol.steps li{
+ul, p, ol, ol.steps li {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+ul, p, ol.steps li {
     list-style-position:inside;
 
     background-color: #181825;
-    /* border: 3px solid #11111b; */
     color: #bac2de;
     padding: 15px 15px;
     font-size: 16px;
     text-align: left;
-    
-    margin-bottom: 6px;
-    margin-top: 6;
 }
 
 
-button{
+button {
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 h1, h2, h3, button{ 
     color: #cdd6f4; 
     background-color: #181825;
     padding: 15px 32px;
-    border: 3px solid #11111b
+    border: 3px solid #11111b;
 }
 
-h3{
-    border: 3px solid #313244;
-
+h1, h2, h3 {
+    width: 400px;
+    margin:auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
+
+h3 { border: 3px solid #313244; }
 
 img {border: 12px solid #181825;}
