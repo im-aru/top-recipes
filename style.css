@@ -2,44 +2,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #1e1e2e;
-    color: #cdd6f4
+    color: #cdd6f4;
+    margin: 0px 0px;
 }
 
-ul, p, ol, ol.steps li {
-    margin-bottom: 6px;
-    margin-top: 6px;
+div.intro h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: #11111b;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
-ul, p, ol.steps li {
-    list-style-position:inside;
+div.intro img{
+    width: auto;
+    height: auto;
+}
+div.intro * {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
 
+div.intro {
+    margin: 0px;
     background-color: #181825;
-    color: #bac2de;
-    padding: 15px 15px;
-    font-size: 16px;
-    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
 }
 
-
-button {
-    display: inline-block;
-    font-size: 16px;
+div.intro.homepage {
+    padding-bottom: 0px;
 }
-
-h1, h2, h3, button{ 
-    color: #cdd6f4; 
-    background-color: #181825;
-    padding: 15px 32px;
-    border: 3px solid #11111b;
-}
-
-h1, h2, h3 {
-    width: 400px;
-    margin:auto;
-    margin-top: 6px;
-    margin-bottom: 6px;
-}
-
-h3 { border: 3px solid #313244; }
-
-img {border: 12px solid #181825;}
