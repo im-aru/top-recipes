@@ -6,35 +6,47 @@ body {
     margin: 0px 0px;
 }
 
+div.intro p,
+div.intro h2,
 div.intro h1 {
-    font-size: 36px;
     margin-bottom: 0px;
     margin-top: 0px;
     background-color: #11111b;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 
+div.intro h1 {
+    font-size: 36px;
 }
 
 div.intro img{
-    width: auto;
+    display: block;
+    width: fit-content;
     height: auto;
-}
-div.intro * {
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 12px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px
 }
 
-div.intro {
-    margin: 0px;
-    background-color: #181825;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 10px;
-}
+div.intro { background-color: #181825; }
 
 div.intro.homepage {
     padding-bottom: 0px;
+}
+
+button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #11111b;
+    color: #cdd6f4;
+    border: 4px solid #363a4f;
+    margin-top: 6px;
+}
+
+button.homepage {
+    font-size: 24px;
 }
